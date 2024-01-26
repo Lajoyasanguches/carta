@@ -1,0 +1,51 @@
+/* css main container */
+#postres.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url("../assets/img/background_white.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#postres .page_header {
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 100px;
+    padding-top: 10px;
+}
+
+#postres .page_title h2 {
+    font-size: 26px;
+    font-family: 'Andora';
+    margin-left: 24px;
+    
+}
+
+#postres .page_title h4 {
+    font-size: 40px;
+    font-family: 'Drustic Dialy';
+    margin-left: 20px;
+}
+
+#postres .page_header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#postres .c_img img {
+    width: 160px;
+}
+
+#postresp {
+    margin-bottom: 20px;
+}
+
+#tiramisu .new img{
+    width: 40px;
+    position: absolute;
+    top: -12%;
+    right: 2%;
+}

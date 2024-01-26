@@ -1,0 +1,122 @@
+
+#index .section_1 {
+    padding-top: 80px;
+}
+/* css section 1 */
+.section_1, .section_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.section_1 img {
+    width: 375px;
+}
+
+.section3p img {
+    width: 375px;
+}
+
+/* css section 2 */
+#section_2 .pagef {
+    background-image: url("../assets/img/cover.png");
+    background-size: cover;
+    position: absolute;    
+}
+
+#section_2 .pagef p {
+    letter-spacing: -0.8px;
+    line-height: 1.4;
+}
+
+/* css section 3 */
+.section_3 {
+    background-image: url("../assets/img/background_section_3b.png");
+    background-size: cover;
+    height: 700px;
+
+    padding-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;   
+
+}
+
+#section_3 .page_header{
+    margin-top: 0;
+}
+
+#index .page_title h2 {
+    color: #ddaa46;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Drustic Dialy';
+}
+
+#index .page_subt p {
+    color: white;
+    
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+    text-align: center;
+    font-size:  18px;
+    font-family: 'Avenir';
+}
+
+#index .s3_top_img {
+    width: 250px;
+    
+    position: absolute;
+    bottom: 10%;
+    z-index: 2;
+}
+
+
+#index .s3_ingredientes {
+    width: 100%;
+    position: absolute;
+    bottom: 24%;
+    z-index: 3;
+}
+
+#section_3 .pagef {
+    background-image: url("../assets/img/cover.png");
+    background-size: cover;
+
+    width: 100%;
+    height: 140px;
+
+    padding: 0;
+}
+
+#index .sello_logo {
+    right: 6%;
+    bottom: 6%;
+
+    top: unset;
+    left: unset;
+
+    z-index: 4;
+}
+
+#index .sello_logo img {
+    transform: none;
+}
+
+/* css section 4 */
+.section_4 {
+    background-image: url("../assets/img/background_section_4b.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 700px;
+}

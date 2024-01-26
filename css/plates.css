@@ -1,0 +1,111 @@
+/* css main container */
+#plates.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: cover;
+
+    position: relative;
+}
+/* css header:pagina */
+#plates .page_title h4 {    
+    font-size: 48px;
+    font-family: 'Drustic Dialy';
+    color: #ddaa46;
+}
+
+#plates .page_subt {
+    display: flex;
+}
+
+#plates .page_subt p {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+    font-family: 'Drustic Dialy';
+    color: white;
+    
+}
+
+/* css pagina:pagina */
+/* #platesp {
+    padding: 0 20px;
+} */
+
+/* css footer:pagina */
+
+
+/* css tarjeta */
+#plates .c_title h4 {
+    color: #ddaa46;
+}
+
+#plates .c_subt p, #plates .c_content p, #plates .c_price p {
+    color: white;
+}
+
+#platesp .c_img img {
+    width: 160px;
+}
+
+/* css corners */
+#plates .topcorners {
+    position: absolute;
+}
+
+/* css footer:pagina*/
+#plates .pagef {
+    flex-direction: column;
+    background-image: url("../assets/img/cover_2.png");
+    background-size: cover; 
+    
+    padding: 40px 20px 20px 20px;
+}
+
+.mp_head h2 {
+    font-family: 'Drustic Dialy';
+    color: #ddaa46;
+    font-size: 26px;
+    text-align: left;
+}
+
+.mp_head h4 {
+    font-family: 'Drustic Dialy Condensed';
+    color: white;
+    font-size: 25px;
+}
+
+.mp_heada h2 {
+    text-align: center;
+    font-family: 'Drustic Dialy Condensed';
+    color: #ddaa46;
+    font-size: 26px;
+}
+
+.mp_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mp_content p {
+    margin-top: 10px;
+    font-family: 'Avenir';
+    color: white;
+    font-size: 12px;
+}
+
+.mp_price p {
+    margin-top: 10px;
+    font-family: 'Andora';
+    color: white;
+    font-size: 14px;
+}
+
+.mp_divisor img {
+    height: 140px;
+    padding: 0 10px; 
+}
+
+.mp_a img, .mp_b img {
+    width: 170px;
+}
+

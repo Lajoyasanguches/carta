@@ -1,0 +1,99 @@
+/* css main container */
+#jarnsour.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: cover;
+    /* height: 800px; */
+    background-color: grey;
+    
+
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#jarcards.row {
+    margin-top: 10px;
+}
+
+#jar img {
+    width: 180px;
+}
+
+#jar .c_title h4 {
+    font-size: 64px;
+    color: #ddaa46;
+}
+
+#jar .c_subt p {
+    width: 200px;
+}
+#jar .c_subt p {
+    font-family: 'Andora';
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+#jar .c_content p {
+    font-family: 'Avenir';
+    font-size: 32px;
+    font-weight: 700;
+    color: #ddaa46;
+}
+
+#jar .c_price p {
+    font-family: 'Avenir';
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+
+#sangria .c_title p, #bogatuna .c_title p {
+    font-family: 'Drustic Dialy';
+    font-size: 24px;
+    text-align: center;
+    color: #ddaa46;
+}
+
+#sangria .c_content p, #summer .c_content p, #bogatuna .c_content p {
+    color: white;
+}
+
+#summer .c_title p {
+    font-family: 'Andora';
+    font-size: 22px;
+    text-align: center;
+    color: #ddaa46;
+}
+
+#sour img {
+    width: 100px;
+}
+
+#sour_header  .c_subt p {
+    text-align: center;
+}
+
+#sour_title.c_title p {
+    font-family: 'Andora';
+    font-size: 36px;
+    color: white;
+    transform: skew(15deg, -20deg)
+}
+
+#sour_subt.c_subt {
+    width: 100px;
+}
+
+#sour_subt.c_subt p {
+    font-family: 'Drustic Dialy';
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    transform: skew(15deg, -20deg)
+}
+
+#jarcards .v_divisor img {
+    height: 140px;
+}

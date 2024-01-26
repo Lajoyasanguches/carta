@@ -1,0 +1,122 @@
+/* css main container */
+#sanguches.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+/* css header:pagina*/
+#sanguches .page_title h2 {
+    font-size: 48px;
+    font-family: 'Drustic Dialy Script Half';
+    color: #ddaa46;
+}
+
+/* css pagina:pagina */
+/* #sanguchesp {
+    padding: 0 20px;
+} */
+
+/* css footer:pagina */
+#sanguches .pagef {
+    background-image: url("../assets/img/cover_2.png");
+    background-size: cover;
+}
+
+#sanguches .pagef p {
+    width: 200px;
+
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Avenir';
+    color: white;
+}
+
+#sanguches .pagef img {
+    width: 160px;
+}
+
+/* css tarjeta */
+
+/* css header:tarjeta */
+
+/* css title:tarjeta */
+#sanguches .c_title h4 {
+    font-size: 28px;
+    color: #ddaa46;
+}
+
+#lengua .c_title h4 {
+    text-align: center;
+}
+
+#lucho .c_title h4 {
+    text-align: center;
+}
+
+#mechada .c_title h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#donberna .c_title h4{
+    text-align: center;
+}
+
+#sinverguenza .c_title h4 {
+    text-align: center;
+}
+
+/* css subt:tarjeta */
+#sanguches .c_subt p {
+    padding: 5px;
+
+    font-size: 16px;
+    font-family: 'Andora';
+    color: white;
+}
+
+/* css body:tarjeta */
+
+/* css contenido:tarjeta */
+#sanguches .c_content p {
+    color: white;
+}
+
+/* css precio:tarjeta */
+#sanguches .c_price p {
+    color: white;  
+}
+
+/* css imagen:tarjeta */
+#lengua .c_img img {
+    width: 170px;
+}
+
+#lucho .c_img img {
+    width: 180px;
+}
+
+#donberna .c_img img, #chispeza .c_img img {
+    width: 160px;
+}
+
+#mechada .c_img img {
+    width: 180px;
+}
+
+/* css divisor */
+#sanguches .v_divisor img {
+    height: 200px;
+}
+
+#sanguches .topcorners {
+    position: absolute;
+    margin-top: 100px;
+    padding-top: 20px;
+}

@@ -1,0 +1,30 @@
+/* CSS footer */
+
+.footer {
+    background-color: black;
+    height: 130px;
+    border-top: 4px solid #00724d;
+
+    padding: 30px 10px;
+
+}
+
+.rowf { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.colf img {
+    width: 80px;
+}
+
+.colf2 p {
+    color: white;
+    font-size: 12px;
+}
+
+.colf2 img {
+    margin-top: 10px;
+    width: 30px;
+}

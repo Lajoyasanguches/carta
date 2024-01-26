@@ -1,0 +1,294 @@
+
+/* CSS header */
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+
+    background-color: black;
+    
+    padding: 10px 20px;
+    border-bottom: 4px solid #ddaa46;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    z-index: 998;
+
+    /* transition: all 200ms ease-in; */
+}
+
+.header .c_title p {
+    color:white;
+    font-family: 'Andora';
+}
+
+
+.header img {
+    width: 80px;
+}
+
+
+.menu_icon img {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* CSS menu */
+
+.menu-on {
+    /* height: 100%; */
+    overflow: hidden;
+    
+}
+
+.menu-on::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.menu_option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: 600;
+}
+
+
+.menu {
+    
+    background-color: #ddaa46;
+    /* background-color: rgba(0, 0, 0, .6); */
+    
+    height: 100%;
+    width: 140px;
+
+    padding: 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    z-index: 999;
+    
+    transform: translateX(100%);
+    transition: transform 500ms;
+    
+    
+}
+.boxdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Drustic Dialy';
+    font-size: 16px ;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background: none;
+    transition: all 100ms ease-in;
+}
+
+.btn:hover {
+    background: #333;
+    border-radius: 15px;
+    transform: scale(128%);
+}
+
+.btn2 {
+    background: #333;
+    border-radius: 15px;
+    transform: scale(128%);
+}
+
+#idioma .c_title p, #carta .c_title p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Andora';
+}
+
+
+.categories {
+/* width: 100%; */
+list-style: none;
+
+text-transform: uppercase;
+text-align: center;
+color: white;
+line-height: 2.5;
+
+/* margin-bottom: 50px; */
+
+
+}
+
+
+
+.categories li {
+    font-family: 'Drustic Dialy';
+}
+
+.categories li:hover {
+    background-color: black;
+    color: white;
+
+    border-radius: 5px;
+    
+    transform: scale(128%);
+    transition: transform 500ms;
+
+    user-select: none;
+    position: relative;
+    
+}
+
+.selected li {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Avenir';
+    /* font-weight: 600; */
+}
+
+.x {
+    position: relative;
+    top: 5%;
+    height: 90px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.x img {
+    width: 20px;
+    /* height: 24px; */
+}
+.language {
+    margin-bottom: 50px;
+}
+
+.language, .menu_kind {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+    
+
+.language span, .menu_kind span {
+    text-transform: uppercase;
+    
+    font-family: 'Avenir'; 
+    font-size: 14px;   
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu_kind span{
+    font-size: 10px;
+}
+
+.check, .checkm {
+    position: relative;
+    width: 50px;
+}
+
+.check::before, .checkm::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+    
+}
+.check::after, .checkm::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.check:checked:after, .checkm:checked:after {
+    left: 25px;
+    border: 2px solid #00a1ff;
+}
+
+.check:checked:before, .checkm:checked:before {
+    background:  #00a1ff;
+    
+}
+
+.menu_kind {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style: none;    
+}
+
+.menu_kind li {
+    padding: 2px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Drustic Dialy';
+}
+
+.menu_kind li:hover {
+    background-color: black;
+    color: white;
+
+    border-radius: 5px;
+    
+    transform: scale(110%);
+    transition: transform 300ms;
+
+    user-select: none;
+    
+}
+
+.menu_kind li:nth-child(1) {
+    background-color: black;
+    transform: scale(130%);
+    color: white;
+
+    border-radius: 5px;
+    }

@@ -1,0 +1,54 @@
+/* css main container */
+#veggie.container {
+    background-image: url("../assets/img/background_white.png");
+    background-size: cover;
+
+    position: relative;
+}
+
+/*css header:pagina*/
+#veggie .page_title h2 {
+    font-size: 48px;
+    font-family: 'Drustic Dialy';  
+}
+
+#veggie .page_subt p {
+    font-size: 44px;
+    font-family: 'Andora';
+    color: green;
+    margin-left: 0;
+}
+
+/* css pagina:pagina */
+#veggiep {
+    position: relative;
+}
+
+#veggie .sello_logo {
+    top: 60%;
+}
+
+/* css footer:pagina */
+#veggie .pagef {
+    background-image: url("../assets/img/cover.png");
+    background-size: cover;
+}
+
+#veggie .pagef p {
+    font-size: 18px;
+    font-family: 'Drustic Dialy';
+
+    padding-top: 20px;
+    color: green;
+}
+
+/* css tarjeta veggie*/
+/* css imagen:tarjeta */
+#veggiep .c_img img {
+    width: 140px;
+}
+
+#caturrita .c_img img {
+    width: 160px;
+}
+

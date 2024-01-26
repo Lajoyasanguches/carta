@@ -1,0 +1,266 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: 'Roboto', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* css main */
+body {
+    background-color: black;
+}
+
+/* css main container */
+.container {
+    width: 375px;
+    margin: 0 auto; 
+}
+
+/* css header:pagina*/
+.page_header {
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page_title h2 {
+    font-size: 40px;
+    font-family: 'Andora';
+}
+
+.page_title h4 {
+    font-size: 30px;
+    font-family: 'Drustic Dialy';
+    font-style: normal;
+    font-weight: 300;    
+}
+
+.page_subt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page_subt p {
+    font-size: 20px;
+    font-family: 'Drustic Dialy';
+    font-style: normal;
+    font-weight: 300;    
+    margin-left: 20px;
+}
+
+.page_header img { 
+    width: 120px;    
+}
+
+/* css pagina:pagina */
+.sello_logo {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+}
+
+.sello_logo img {
+    width: 100px;
+    transform: translate(-50%, -50%)
+}
+
+/*css footer:pagina */
+.pagef {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 0;
+
+    position: relative;
+    bottom: 0;
+}
+
+.pagef p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Drustic Dialy';    
+}
+
+/* css fila */
+.row {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: relative;
+}
+
+/* css tarjeta */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    position: relative;
+}
+
+.cardflxr {
+    width: 100%;
+}
+
+/* css header:tarjeta */
+.c_head {
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_headflxr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* css title:tarjeta */
+.c_title h4 {
+    font-size: 26px;
+    font-family: 'Drustic Dialy';
+}
+
+.c_title p {
+    font-family: 'Drustic Dialy Condensed';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;    
+    text-align: left;
+    color: #ddaa46;
+}
+
+/* css subt:tarjeta */
+.c_subt p {
+    font-family: 'Drustic Dialy';
+}
+
+/* css body:tarjeta */
+.c_body {
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_bodyflxr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* css contenido:tarjeta */
+.c_content p {
+    text-align: center;
+
+    font-size: 12px;
+    font-family: 'Avenir';
+}
+
+.c_contflxr p{
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    font-family: 'Avenir';
+}
+
+/* css precio:tarjeta */
+.c_price p {
+    margin-top: 10px;
+
+    font-size: 16px;
+    font-family: 'Andora';
+}
+
+.c_priceflxr p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Andora';
+}
+
+/* css imagen:tarjeta */
+.c_img img {
+    width: 200px;
+}
+
+/* css divisores */
+
+.h_divisor {
+    padding: 0 10px;
+}
+
+.h_divisor img {
+    width: 100%;
+}
+
+.v_divisor img {
+    height: 250px;
+    padding: 0 10px;
+}
+
+.divisor {
+    width: 100%;
+    border: 2px solid #ddaa46;
+}
+
+.divisor2 {
+    width: 100%;
+    border: 2px solid green;
+}
+
+/* css corners */
+
+.topcorners {
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topcorners img {
+    width: 60px;
+    padding: 0 10px;
+}
+
+.bottomcorners {
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.bottomcorners img {
+    width: 60px;
+    padding: 0 10px;
+}

@@ -1,0 +1,178 @@
+#destiled.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: cover;
+    background-color: grey;
+    /* margin-top: 100px; */
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#destiled .row {
+    align-items: normal;
+}
+
+#piscolon.card {
+    height: 250px;
+    justify-content: flex-start;
+}
+
+#piscolon .dest_title.c_title {
+    position: absolute
+}
+
+#piscolon .c_title p {
+    color: white;
+    font-size: 28px;
+    font-family: 'Andora';
+}
+
+#piscolon .c_subt {
+    width: 100%;
+}
+
+#piscolon .c_subt p {
+    color: #ddaa46;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+#piscolon .c_img {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+#piscolon img {    
+    width: 120px;
+}
+
+#piscolon .c_head {
+    justify-content: flex-start;
+}
+
+#whisky .c_title p {
+    font-size: 18px;
+    font-family: 'Drustic Dialy';
+    color: white;
+    text-align: center;
+}
+
+#gentle.c_title p {
+    font-size: 14px;
+}
+
+#whisky .c_subt p {
+    font-size: 20px;
+    font-family: 'Drustic Dialy';
+    color: white;
+}
+
+#whisky .c_img img {
+    width: 100px;
+}
+
+#gin.card {
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#gin .c_title p {
+    color: white;
+    font-size: 28px;
+    font-family: 'Andora';
+}
+
+#gin .c_content {    
+    position: absolute;
+    bottom: 0;
+}
+
+#gin .c_content p {
+    font-size: 12px;
+    font-family: 'Avenir';
+    text-align: left;
+    color: white;
+}
+
+#gin .c_img img {
+    width: 90px;
+    position:absolute;
+    top: 0;
+    left: 15px;
+}
+
+#gines.card {
+    align-items: flex-start;
+}
+
+#gines .c_subt p {
+    font-family: 'Avenir';
+    color: white;
+    font-size: 12px;
+}
+#vodka.card, #ron.card {
+    align-items: normal;
+    justify-content: center;
+}
+
+#vodka .c_head, #ron .c_head {
+    align-items: normal ;
+}
+
+#vodka .c_subt p {
+    color: white;
+    font-family: 'Avenir';
+    font-size: 9px;
+}
+
+#ron_title.c_title p, #vodka_title.c_title p{
+    color: white;
+    font-size: 28px;
+    text-align: left;
+}
+
+#bajativo.row {
+    justify-content: space-between;
+    gap: 2%;
+}
+
+#bajativo .c_head {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#baj_header .c_title h4 {
+    font-size: 26px;
+    color: #ddaa46;
+}
+
+#baj_header .c_subt p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#bajativo .c_title p {
+    font-size: 14px;
+}
+
+#bajativo .c_price p, #vodka .c_price p, #ron .c_price p {
+    font-size: 12px;
+    color: white;
+}
+
+#destiled .v_divisor img {
+    height: 150px;
+}
+
+#gines .icons {
+    display: flex;
+    align-items: center;
+}
+
+#gines .icons img {
+    width: 20px;
+}

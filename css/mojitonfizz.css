@@ -1,0 +1,56 @@
+/* css main container */
+#mojitonfizz.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: cover;
+    /* height: 800px; */
+    background-color: grey;
+
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#mojitonfizz .row {
+    align-items: flex-start;
+    /* justify-content: space-between; */
+}
+
+#spritz.row {
+    padding-bottom: 20px;
+}
+
+#mojito img {
+    position: absolute;
+    top: 80px;
+    right: 5px;
+    width: 120px;
+}
+
+#spritz img {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 100px;
+}
+
+#mojito .c_headflxr, #spritz .c_headflxr {
+    justify-content: flex-start;
+    gap: 8%;
+}
+
+#mojito_title.c_title p, #spritz_title.c_title p, #spritz_title2.c_title p {
+    font-family: 'Drustic Dialy';
+    font-size: 36px;
+    color: white;
+}
+
+#mojito_subt.c_subt p, #spritz_subt.c_subt p {
+    font-family: 'Andora';
+    font-size: 30px;
+    text-align: center;
+    color: #ddaa46;
+}
+
+#jarcards .v_divisor img {
+    height: 140px;
+}

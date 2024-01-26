@@ -1,0 +1,42 @@
+/* #index_coctel .section_1 {
+    padding-top: 90px;
+} */
+
+
+#index_coctel .section3p img {
+    width: 375px;
+}
+
+#index_coctel .section_3 {
+    height: 660px;
+}
+
+.section3p {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 125px;
+}
+
+.section_3p img {
+    width: 375px;
+}
+
+#cover {
+    background-image: url("../assets/img/cover_2i.png");
+    background-size: cover;
+    
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+#cover img {
+    width: 80px;
+}

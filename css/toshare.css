@@ -1,0 +1,162 @@
+/* css main container */
+#toshare.container {    
+    /* margin-top: 100px; */
+
+    background-image: url("../assets/img/background_beige2.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+/* css header:pagina */
+#toshare .page_header {
+    background-image: url("../assets/img/cover_top.png");
+    background-size: cover;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 10px 0 30px 0;
+}
+
+#toshare .page_title h2 {
+    font-family: 'Drustic Dialy';
+    margin-left: 20px;
+}
+
+#toshare .page_title h4 {
+    font-family: 'Andora';
+    margin-left: 38px;
+}
+
+#toshare .page_header img {
+    margin-right: 20px;
+}
+
+/* css pagina:pagina */
+/* #tosharep {
+    padding: 0 20px;
+} */
+
+/* css fila */
+#patrimonial.row {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+#pacifico.row {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+/* css tarjetas */
+#chorrillana.card {
+    margin-bottom: 20px;
+}
+
+/* css header:tarjeta */
+#patrimonial .c_head img {
+    width: 200px;
+    margin-left: 5px;
+}
+
+/* css titles:tarjeta */
+#chorrillana .c_title h4 {
+    font-size: 32px;
+    transform: translateX(40px);
+}
+
+/* css subt:tarjeta */
+#pacifico .c_subt p {
+    font-size: 24px;
+}
+
+#chorrillana .c_subt p {
+    font-size: 20px;
+    transform: translateY(10px);
+}
+
+/* css body:tarjeta */
+
+/* css contenido:tarjeta */
+#trilogia .c_content p, #pacifico .c_content p, #chorrillana .c_content p, #patrimonial .c_content p {
+    text-align: left;
+}
+
+/* css imagen:tarjeta */
+#chivato .c_img img {
+    width: 150px;
+}
+
+#provoleta .c_img img {
+    width: 150px;
+}
+
+#fritanga .c_img img {
+    width: 110px;
+}
+
+#papasjoya .c_img img {
+    width: 160px;
+}
+
+#papasgringas .c_img img {
+    width: 150px;
+}
+
+#papasveggie .c_img img {
+    width: 190px;
+}
+
+#aroscebolla .c_img img {
+    width: 170px;
+}
+
+#caleta .c_subt p {
+    text-align: center;
+}
+
+#victoria .c_img img {
+    width: 170px;
+}
+
+#trilogia .c_subt p {
+    text-align: center;
+}
+
+#pacifico .c_img img {
+    width: 220px;
+}
+
+#pacifico .c_img {
+    position: absolute;
+    right: 0px;  
+    
+}
+
+#patrimonial .c_img {
+    position: absolute;
+    right: 0;  
+    
+}
+
+#patrimonial .c_img img {
+    width: 220px;
+}
+
+#chorrillana .c_img img {
+    width: 220px;
+}
+
+#toshare .new img{
+    width: 40px;
+    position: absolute;
+    top: -8%;
+    right: -6%;
+}
+
+#toshare .new2 img{
+    width: 40px;
+    position: absolute;
+    top: -8%;
+    right: 2%;
+}
