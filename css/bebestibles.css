@@ -1,0 +1,53 @@
+#bebestibles.container {
+    background-image: url("../assets/img/background_black.png");
+    /* height: 500px; */
+
+    background-size: cover;
+    position: relative;
+
+    padding-bottom: 20px;
+
+    box-sizing: border-box;
+}
+
+#bebestibles .page_header {
+    background-image: url("../assets/img/cover_top.png");
+    height: 120px;
+
+    background-size: cover;
+
+}
+
+#bebestibles .page_title p {
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: 'Andora';  
+}
+
+#bebestibles .subt_title p {
+    font-size: 18px;
+    font-family: 'Drustic Dialy';
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+#latas.row {
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#latas.row img {
+    width: 35px;
+}
+
+#jugo.row {
+    flex-direction: column;
+}
+
+#jugo .page_title p {
+    color: #ddaa46;
+    margin-bottom: 20px;
+}
+

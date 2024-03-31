@@ -117,7 +117,10 @@ body {
 }
 
 .cardflxr {
-    width: 100%;
+    width: 375px;
+    padding: 0 10px;
+
+    box-sizing: border-box;
 }
 
 /* css header:tarjeta */
@@ -135,6 +138,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
