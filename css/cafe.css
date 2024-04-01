@@ -1,0 +1,93 @@
+#cafe.container {
+    background-image: url("../assets/img/background_black2.png");
+    background-size: contain;
+    /* height: 500px; */
+}
+
+
+#cafe .page_header {
+    background-image: url("../assets/img/cover_top.png");
+    background-size: cover;
+    height: 120px;
+}
+
+#cafe .page_header h4 {
+    font-family: 'Andora';
+    color: rgb(83, 34, 34);
+    font-size: 70px;
+    position: relative;
+    top: -15px;
+}
+
+#cafe_price {
+    margin-top: 20px;
+}
+
+#cafe_foto {
+    margin-top: 20px;
+}
+
+#cafe_foto img {
+    width: 50px;
+}
+
+#cafe .bottomcorners {
+    padding-bottom: 20px;
+}
+
+#cafe .pagef {
+    background-image: url("../assets/img/cover.png");
+    background-size: cover;
+    height: 200px;
+    position: relative;
+
+    
+    padding-bottom: 20px;
+}
+
+#cafe .pagef img {
+    position: absolute;
+    width: 100px;
+}
+
+#cafe .pagef .cafe1 {
+    left: 30px;
+    bottom: 10px;
+    width: 90px;
+    z-index: 3;
+}
+#cafe .pagef .cafe2 {
+    left: 10px;
+    bottom: 40px;
+    width: 110px;
+    z-index: 2;
+}
+#cafe .pagef .cafe3 {
+    left: 60px;
+    bottom: 75px;
+    width: 105px;
+    z-index: 1;
+}
+#cafe .pagef .cafe4 {
+    left: 110px;
+    width: 150px;
+    z-index: 4;
+}
+#cafe .pagef .cafe5 {
+    right: 60px;
+    bottom: 70px;
+    width: 110px;
+    z-index: 1;
+}
+#cafe .pagef .cafe6 {
+    right: 5px;
+    bottom: 50px;
+    width: 110px;
+    z-index: 2;
+}
+#cafe .pagef .cafe7 {
+    right: 15px;
+    bottom: 10px;
+    width: 110px;
+    z-index: 3;
+}
