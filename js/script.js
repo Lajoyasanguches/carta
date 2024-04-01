@@ -96,8 +96,20 @@ function myFunction(element) {
     } else if(element.innerText == "Desserts"){
         container = document.getElementById("postres");
         container.scrollIntoView();
+    } else if(element.innerText == "Bebestibles"){
+        container = document.getElementById("bebestibles");
+        container.scrollIntoView();
+    } else if(element.innerText == "To Freshen Up"){
+        container = document.getElementById("bebestibles");
+        container.scrollIntoView();
+    } else if(element.innerText == "Cafetería"){
+        container = document.getElementById("cafe");
+        container.scrollIntoView();
+    } else if(element.innerText == "Café"){
+        container = document.getElementById("cafe");
+        container.scrollIntoView();
 
-
+        
     } else if(element.innerText == "Cantina Joya"){
         container = document.getElementById("coctel");
         container.scrollIntoView();
@@ -203,7 +215,8 @@ function changetoFood() {
         <button class="btn" onclick="myFunction(this)">Sanguches</button>
         <button class="btn" onclick="myFunction(this)">Platos</button>
         <button class="btn" onclick="myFunction(this)">Ensaladas</button>
-        <button class="btn" onclick="myFunction(this)">Postres</button>`;
+        <button class="btn" onclick="myFunction(this)">Bebestibles</button>
+        <button class="btn" onclick="myFunction(this)">Cafetería</button>`;
 
         //Cambiamos el color del border bottom de nuestro header y las img logo y menu icon a amarillo.
         document.querySelector(".header").style.borderBottom = "4px solid #ddaa46";
@@ -218,7 +231,9 @@ function changetoFood() {
         <button class="btn" onclick="myFunction(this)">Sandwish</button>
         <button class="btn" onclick="myFunction(this)">Main courses</button>
         <button class="btn" onclick="myFunction(this)">Salads</button>
-        <button class="btn" onclick="myFunction(this)">Desserts</button>`;
+        <button class="btn" onclick="myFunction(this)">Desserts</button>
+        <button class="btn" onclick="myFunction(this)">To Freshen Up</button>
+        <button class="btn" onclick="myFunction(this)">Café</button>`;
 
         //Cambiamos el color del border bottom de nuestro header y las img logo y menu icon a amarillo.
         document.querySelector(".header").style.borderBottom = "4px solid #ddaa46";
