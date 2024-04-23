@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 
-#clandestino.card, #fresco.card, #panchito.card, #deleite.card, #cardonal.card {
+#wanderina.card, #ginjoyazo.card, #clandestino.card, #fresco.card, #panchito.card, #deleite.card, #cardonal.card {
     flex-direction: row;
 }
 
@@ -42,9 +42,14 @@
     font-size: 10px;
 }
 
-#clandestino img, #fresco img, #panchito img, #deleite img, #cardonal img {
+#wanderina img, #ginjoyazo img, #clandestino img, #fresco img, #panchito img, #deleite img, #cardonal img {
     width: 60px;
 }
+
+#wanderina img, #ginjoyazo img {
+    width: 70px;
+}
+
 #imperial .c_body, #morir .c_body, #pasion .c_body {
     align-items: center;
 }
@@ -71,4 +76,18 @@
 
 #coctel .v_divisor img {
     height: 180px;
+}
+
+#coctel .new img{
+    width: 40px;
+    position: absolute;
+    top: -30%;
+    right: -10%;
+}
+
+#coctel .new2 img{
+    width: 40px;
+    position: absolute;
+    top: -32%;
+    right: 2%;
 }
