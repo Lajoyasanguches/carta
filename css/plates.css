@@ -109,3 +109,38 @@
     width: 170px;
 }
 
+#plates .new img{
+    width: 40px;
+    position: absolute;
+    top: -8%;
+    right: -6%;
+}
+
+#plates .new2 img{
+    width: 40px;
+    position: absolute;
+    top: -5%;
+    right: -6%;
+}
+
+#asado_tira .c_head {
+    width: 170px;
+}
+
+#plates .new3 img{
+    width: 40px;
+    position: absolute;
+    top: -15%;
+    right: 2%;
+}
+
+#plates .new4 img{
+    width: 40px;
+    position: absolute;
+    top: -10%;
+    left: 2%;
+}
+
+#congrio_pobre.card {
+    flex-direction: column;
+}

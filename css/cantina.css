@@ -58,12 +58,8 @@
     text-align: center;
 }
 
-#imperial .c_content p, #morir .c_content p, #pasion .c_content p {
+#imperial .c_content p, #morir .c_content p {
     text-align: center;
-}
-
-#pasion img {
-    width: 80px;
 }
 
 #morir img {
@@ -71,7 +67,24 @@
 }
 
 #imperial img {
-    width: 65px;
+    width: 55px;
+}
+
+#chiri.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#chiri img {
+    width: 90px;
+}
+
+#chiri .c_title h4 {
+    font-size: 30px;
 }
 
 #coctel .v_divisor img {
@@ -91,3 +104,20 @@
     top: -32%;
     right: 2%;
 }
+
+#coctel .new3 img{
+    width: 40px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+#imperial.card, #morir.card {
+    flex-direction: row;
+}
+
+#morir.card {
+    padding-right: 5px;
+}
+
+

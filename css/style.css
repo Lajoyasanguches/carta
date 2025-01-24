@@ -114,6 +114,8 @@ body {
     justify-content: space-around;
 
     position: relative;
+    
+    margin-bottom: 10px;
 }
 
 .cardflxr {
@@ -151,6 +153,41 @@ body {
 .c_title p {
     font-family: 'Drustic Dialy Condensed';
     font-size: 16px;
+    font-style: normal;
+    font-weight: 300;    
+    text-align: left;
+    color: #ddaa46;
+}
+
+.t_normal p {
+    margin-top: 8px;
+    font-family: 'Drustic Dialy';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;    
+    text-align: left;
+    color: #ddaa46;
+}
+.t_smash {
+    display: flex;
+    flex-direction: row;
+}
+
+.t_smash p {
+    margin-left: 5px;
+    margin-top: 8px;
+    font-family: 'Andora';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;    
+    text-align: left;
+    color: #ddaa46;
+}
+
+.st_smash p {
+    margin-top: 8px;
+    font-family: 'Drustic Dialy';
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;    
     text-align: left;
@@ -197,11 +234,11 @@ body {
 
 /* css precio:tarjeta */
 .c_price p {
-    margin-top: 10px;
-
+    margin-top: 10px;    
     font-size: 16px;
     font-family: 'Andora';
 }
+
 
 .c_priceflxr p {
     font-size: 14px;
@@ -267,4 +304,14 @@ body {
 .bottomcorners img {
     width: 60px;
     padding: 0 10px;
+}
+
+.overlay86 {
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    background-image: url("../assets/img/86.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 25px;
+    
 }

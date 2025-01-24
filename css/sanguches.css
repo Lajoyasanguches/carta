@@ -42,13 +42,19 @@
 }
 
 /* css tarjeta */
-
+#sanguches .card {
+    
+}
 /* css header:tarjeta */
 
 /* css title:tarjeta */
 #sanguches .c_title h4 {
     font-size: 28px;
     color: #ddaa46;
+}
+
+#nieto .c_title h4 {
+    text-align: center;
 }
 
 #lengua .c_title h4 {
@@ -82,6 +88,10 @@
 }
 
 /* css body:tarjeta */
+
+#nieto {
+    margin-top: 20px;
+}
 
 /* css contenido:tarjeta */
 #sanguches .c_content p {
@@ -119,4 +129,20 @@
     position: absolute;
     margin-top: 100px;
     padding-top: 20px;
+}
+
+#sanguches .new3 img{
+    width: 40px;
+    position: absolute;
+    top: -5%;
+    right: 10%;
+}
+
+#nieto .c_img2 img {
+    width: 250px;
+    padding-right: 25px;
+}
+
+#nieto .card {
+    padding-left: 25px;
 }

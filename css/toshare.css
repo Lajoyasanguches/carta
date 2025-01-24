@@ -95,6 +95,10 @@
     width: 110px;
 }
 
+#tiradito .c_img img {
+    width: 200px;
+}
+
 #papasjoya .c_img img {
     width: 160px;
 }
@@ -105,6 +109,10 @@
 
 #papasveggie .c_img img {
     width: 190px;
+}
+
+#papasrancho .c_img img {
+    width: 170px;
 }
 
 #aroscebolla .c_img img {
@@ -151,12 +159,44 @@
     width: 40px;
     position: absolute;
     top: -8%;
-    right: -6%;
+    /* right: -6%; */
 }
 
 #toshare .new2 img{
     width: 40px;
     position: absolute;
-    top: -8%;
-    right: 2%;
+    top: -10%;
+    left: 2%;
+}
+
+#toshare .new3 img{
+    width: 40px;
+    position: absolute;
+    top: -10%;
+    right: 5%;
+}
+
+#trilogia2.row {
+    flex-direction: column;
+    
+}
+
+#trilogia2 .c_img img {
+    width: 350px;
+}
+
+#trilogia2 .new2 img{
+    width: 40px;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+
+#trilogia2 .card {    
+    flex-direction: column;
+}
+
+#trilogia2 .c_head {
+    width: 180px;
+    margin-bottom: 10px;
 }
