@@ -144,3 +144,11 @@
 #congrio_pobre.card {
     flex-direction: column;
 }
+
+#plates .t_normal p {
+    text-align: center;
+}
+
+#plates .t_smash  {
+    justify-content: center;
+}
